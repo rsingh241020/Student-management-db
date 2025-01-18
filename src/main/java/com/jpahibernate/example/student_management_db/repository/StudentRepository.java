@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository // It is data Layer and it performs data activities
 public interface StudentRepository extends JpaRepository<Student,Integer> {
+
 }
